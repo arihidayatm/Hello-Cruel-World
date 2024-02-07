@@ -12,10 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    MainPage mainPage = const MainPage();
 
     return MaterialApp(
-      home: mainPage,
+      home: const MainPage(),
     );
   }
 
