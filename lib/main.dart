@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_cruel_world/main_page.dart';
 
 void main(){
-  MyApp app = const MyApp();
-
-  runApp(app);
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -13,8 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp(
-      home: const MainPage(),
+    return const MaterialApp(
+      home: MainPage(),
     );
   }
 
