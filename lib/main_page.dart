@@ -6,8 +6,10 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Text title = const Text('Aplikasi Pertama Saya');
-    Text body = const Text('Hello Cruel World!');
-    Center center = Center(child: body,);
+    
+    Center center = Center(
+      child: const Text('Hello Cruel World!'),
+    );
 
     AppBar appBar = AppBar(
       title: title,
