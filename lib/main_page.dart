@@ -5,12 +5,10 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    AppBar appBar = AppBar(
-      title: const Text('Aplikasi Pertama Saya'),
-    );
     Scaffold scaffold = Scaffold(
-      appBar: appBar,
+      appBar: AppBar(
+      title: const Text('Aplikasi Pertama Saya'),
+    ),
       body: Center(
       child: const Text('Hello Cruel World!'),
     ),
