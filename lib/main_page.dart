@@ -5,7 +5,7 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Scaffold scaffold = Scaffold(
+    return Scaffold(
       appBar: AppBar(
       title: const Text('Aplikasi Pertama Saya'),
     ),
@@ -13,7 +13,5 @@ class MainPage extends StatelessWidget {
       child: const Text('Hello Cruel World!'),
     ),
     );
-
-    return scaffold;
   }
 }
